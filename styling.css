@@ -2,8 +2,15 @@
 body {
     background-color: rgba(0,255,0,0.5);
     color: #281f52;
+    text-align: center;
+    
+}
 
-
+section{
+    border-style: solid;
+    border-color: #0ce8c3;
+    border-width: 2px; 
+    border-radius:  25px;
 }
 /*styling the h1 header and title*/
 header h1 {
