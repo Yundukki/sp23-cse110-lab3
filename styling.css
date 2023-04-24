@@ -22,12 +22,12 @@ header h1 {
 }
 
 h2{
-    font-size: .5rem;
+    font-size: 10rem;
     text-align: center;
 }
 
 h3{
-    font-size: 0.5cm;
+    font-size: 1cm;
 }
 
 video{
@@ -35,6 +35,10 @@ video{
     width: 120px;
     max-width: 400px;
     min-width: 100px;
+}
+
+#agenda{
+    text-decoration: blue wavy underline;
 }
 
 ol,ul{
