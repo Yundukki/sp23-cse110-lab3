@@ -18,8 +18,12 @@ header h1 {
     color: black;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 10px;s
+    padding-bottom: 10px;
 }
 
+header h2{
+    font-size: 1cm;
+
+}
 
 
