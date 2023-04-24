@@ -9,7 +9,7 @@ body {
 section{
     border-style: solid;
     border-color: #0ce8c3;
-    border-width: 100px; 
+    border-width: 100%; 
     border-radius:  100px;
 }
 /*styling the h1 header and title*/
@@ -35,6 +35,4 @@ p{
     height: 5cm;
 }
 
-section{
-    height: 50vh;
-}
+
