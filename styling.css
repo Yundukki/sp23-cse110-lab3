@@ -3,6 +3,13 @@
     src: url(CastoroTitling-Regular.ttf) format('truetype');
 }
 
+*{
+    font-family: 'Castoro Titling Regular', sans-serif;
+}
+
+a[href="https://www.computerscience.org/careers/software-engineer/"]{
+    color: purple;
+}
 
 
 /*this edits the body of  my html file*/
@@ -10,8 +17,7 @@ body {
     background-color: rgba(0,255,0,0.5);
     color: #281f52;
     text-align: center;
-    flex-direction: column;
-    font-family: 'Castoro Titling Regular', sans-serif;
+    flex-direction: column;  
 }
 
 section{
@@ -27,6 +33,7 @@ header h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    padding:  0px 10px 0px 10px;
 }
 
 h1:hover{
@@ -44,10 +51,33 @@ h1:hover{
 h2{
     font-size: 5rem;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+nav + ul{
+    color: aqua;
+}
+
+h2~details{
+    text-decoration: orange wavy underline;
 }
 
 h3{
     font-size: 1cm;
+}
+
+.unfinished > h2{
+    text-decoration: red  underline  overline;
+}
+
+.unfinished h2 ol{
+    color: brown;
+}
+
+#secretsecret{
+    display: none;
 }
 
 video{
@@ -78,6 +108,10 @@ p.para{
 img{
     max-width: 75%;
     height: auto;
+}
+
+#TOP{
+    font-size: 1in;
 }
 
 
