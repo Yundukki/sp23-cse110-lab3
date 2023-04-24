@@ -1,9 +1,17 @@
+@font-face{
+    font-family: "CastoroTitling-Regular";
+    src: url(CastoroTitling-Regular.ttf) format('truetype');
+}
+
+
+
 /*this edits the body of  my html file*/
 body {
     background-color: rgba(0,255,0,0.5);
     color: #281f52;
     text-align: center;
-    
+    flex-direction: column;
+    font-family: 'Castoro Titling Regular', sans-serif;
 }
 
 section{
@@ -21,8 +29,20 @@ header h1 {
     padding-bottom: 10px;
 }
 
+h1:hover{
+    color: black;
+    background: blue;
+}
+
+@media (hover:hover){
+    h1:hover{
+        color: white;
+        background: black;
+    }
+}
+
 h2{
-    font-size: 10rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -39,7 +59,7 @@ video{
 }
 
 #agenda{
-    text-decoration: blue wavy underline;
+    text-decoration: blue underline;
 }
 
 ol,ul{
@@ -59,4 +79,5 @@ img{
     max-width: 75%;
     height: auto;
 }
+
 
