@@ -1,12 +1,16 @@
-
-
+/*this edits the body of  my html file*/
 body {
-    background-color: #fff;
+    background-color: rgba(0,255,0,0.5);
     color: #281f52;
 
 }
 /*styling the h1 header and title*/
 h1 {
-    font-size: 24px;
+    font-size: 1.5em;
     text-align: center;
+    color: black;
+}
+
+h2{
+
 }
