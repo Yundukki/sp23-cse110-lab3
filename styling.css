@@ -3,14 +3,30 @@ body {
     background-color: rgba(0,255,0,0.5);
     color: #281f52;
 
+
 }
 /*styling the h1 header and title*/
-h1 {
-    font-size: 1.5em;
-    text-align: center;
+header h1 {
+    font-size: 40px;
+    width : 80%;
+    max-width:600px;
     color: black;
 }
 
-h2{
+header h2{
+    font-size: 2rem;
+}
 
+div{
+    width: 2in;
+    height: 3in;
+}
+
+p{
+    width: 4cm;
+    height: 5cm;
+}
+
+section{
+    height: 50vh;
 }
